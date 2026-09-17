@@ -1,0 +1,7 @@
+LOAD DATA
+INFILE 'pizzas.csv'
+APPEND
+INTO TABLE pizzas
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(pizza_id, pizza_type_id, size, price)

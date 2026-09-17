@@ -1,0 +1,5 @@
+*.log
+*.bad
+*.dsc
+*~
+.DS_Store
